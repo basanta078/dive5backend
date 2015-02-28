@@ -1,0 +1,22 @@
+{
+  "name": "dive5backend",
+  "version": "0.0.1",
+  "description": "dive5 rest backend using restify",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/basanta078/dive5backend.git"
+  },
+  "keywords": [
+    "restify"
+  ],
+  "author": "Basanta Kharel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basanta078/dive5backend/issues"
+  },
+  "homepage": "https://github.com/basanta078/dive5backend"
+}
