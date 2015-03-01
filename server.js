@@ -8,6 +8,8 @@ var server = restify.createServer({
 server.use(restify.acceptParser(server.acceptable));
 server.use(restify.queryParser());
 server.use(restify.bodyParser());
+server.use(restify.gzipResponse());
+
 
 server.get('/echo/:name', function (req, res, next) {
   res.send(req.params);
