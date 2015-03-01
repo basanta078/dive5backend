@@ -10,10 +10,6 @@ server.use(restify.queryParser());
 server.use(restify.bodyParser());
 server.use(restify.gzipResponse());
 
-server.defaultResponseHeaders = function(data) {
-  this.header('Server', '');
-  this.header('X-Powered-By', '');
-};
 
 server.get('/echo/:name', function (req, res, next) {
   res.send(req.params);
